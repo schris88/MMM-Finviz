@@ -65,7 +65,7 @@ Module.register("MMM-Finviz", {
     socketNotificationReceived: function (notification, payload) {
         if (notification === "MAP_UPDATED") {
             // Update the image URL with a timestamp to prevent caching
-            this.imageUrl = "/modules/MMM-Finviz/public/map.png?t=" + new Date().getTime();
+            this.imageUrl = this.file("public/map.png") + "?t=" + new Date().getTime();
             this.loaded = true;
             this.updateDom();
         }
