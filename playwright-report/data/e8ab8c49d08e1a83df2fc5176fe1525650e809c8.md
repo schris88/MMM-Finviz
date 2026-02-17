@@ -1,0 +1,93 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "Über Google" [ref=e4] [cursor=pointer]:
+      - /url: https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header
+    - link "Store" [ref=e5] [cursor=pointer]:
+      - /url: https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "Gmail" [ref=e10] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Nach Bildern suchen" [ref=e12] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=de&ogbl
+          - text: Bilder
+      - button "Google-Apps" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - link "Anmelden" [ref=e20] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=de&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e23]
+  - search [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - button "Dateien oder Bilder hochladen" [ref=e37] [cursor=pointer]:
+          - img [ref=e39]
+        - combobox "Suche" [expanded] [active] [ref=e42]:
+          - text: test
+          - listbox [ref=e44]:
+            - option "test" [ref=e48]:
+              - generic [ref=e49]: test
+            - option "testosteron" [ref=e53]:
+              - generic [ref=e54]: testosteron
+            - option "testo" [ref=e58]:
+              - generic [ref=e59]: Testo
+            - option "testament" [ref=e63]:
+              - generic [ref=e64]: testament
+            - option "testturm rottweil" [ref=e68]:
+              - generic [ref=e69]: testturm rottweil
+              - generic [ref=e70]: TK Elevator Testturm · Rottweil
+            - option "teste dich" [ref=e74]:
+              - generic [ref=e75]: teste dich
+            - option "testament vorlage" [ref=e79]:
+              - generic [ref=e80]: testament vorlage
+            - option "testosteron steigern" [ref=e84]:
+              - generic [ref=e85]: testosteron steigern
+            - option "testosteron kaufen" [ref=e89]:
+              - generic [ref=e90]: testosteron kaufen
+            - option "testosteronmangel" [ref=e94]:
+              - generic [ref=e95]: testosteronmangel
+        - generic [ref=e96]:
+          - button "Löschen" [ref=e98] [cursor=pointer]:
+            - img [ref=e100]
+          - link "KI‑Modus" [ref=e102] [cursor=pointer]:
+            - generic [ref=e104]:
+              - img [ref=e106]
+              - generic [ref=e113]: KI‑Modus
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e118]:
+            - button "Google Suche" [ref=e119] [cursor=pointer]
+            - button "Auf gut Glück!" [ref=e120] [cursor=pointer]
+          - link "Weitere Informationen" [ref=e121] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/answer/106230?hl=de
+        - button "Unangemessene Vervollständigungen melden" [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]: Unangemessene Vervollständigungen melden
+      - generic [ref=e125]:
+        - button "Google Suche" [ref=e126] [cursor=pointer]
+        - button "Auf gut Glück!" [ref=e127] [cursor=pointer]
+  - generic [ref=e130]:
+    - text: "Google gibt es auch auf:"
+    - link "English" [ref=e131] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_-yrxk5_3a88qObno0khE0dzakt4%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwji9f-Imd6SAxWIgP0HHXtlJNoQ2ZgBCCE
+  - contentinfo [ref=e133]:
+    - generic [ref=e134]: Deutschland
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - link "Werbeprogramme" [ref=e137] [cursor=pointer]:
+          - /url: https://www.google.com/intl/de_de/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Unternehmen" [ref=e138] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Wie funktioniert die Google Suche?" [ref=e139] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - 'link "Drei Jahrzehnte Klimaschutz: Jede Entscheidung zählt" [ref=e141] [cursor=pointer]':
+        - /url: https://sustainability.google/intl/de/klimaschutz/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=
+      - generic [ref=e142]:
+        - link "Datenschutzerklärung" [ref=e143] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=de&fg=1
+        - link "Nutzungsbedingungen" [ref=e144] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=de&fg=1
+        - button "Einstellungen" [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: Einstellungen
+```
