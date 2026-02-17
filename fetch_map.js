@@ -53,7 +53,13 @@ const fs = require('fs');
 
         const download = await downloadPromise;
 
-        const savePath = path.join(__dirname, 'map.png');
+        // Ensure public directory exists
+        const publicDir = path.join(__dirname, 'public');
+        if (!fs.existsSync(publicDir)) {
+            fs.mkdirSync(publicDir, { recursive: true });
+        }
+
+        const savePath = path.join(publicDir, 'map.png');
         await download.saveAs(savePath);
 
         console.log(`Map successfully saved to: ${savePath}`);
